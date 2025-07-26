@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Rent-pe">
      
       <Routes>
         <Route path='/login' element={<Login/>}/>
